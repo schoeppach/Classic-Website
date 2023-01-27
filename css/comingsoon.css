@@ -106,8 +106,9 @@ a:hover {
 
 .btn-default:hover,
 .btn-default:focus {
-  background-color: rgba(91, 92, 92, 0.589); /* Button Background Hover */
+  background-color: rgba(193, 208, 209, 0.288); /* Button Background Hover */
   color: rgb(255, 123, 0);
+  border: 4px solid rgb(255, 123, 0);
 }
 
 /* Animations Länge */

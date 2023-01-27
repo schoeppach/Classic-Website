@@ -93,8 +93,8 @@ body {
 /* hover */
 
 .lead:hover {
-  color: rgb(159, 241, 255)!important; 
-  text-shadow: 0 0 10px rgb(150, 150, 150);
+  color: rgb(70, 227, 255)!important; 
+  /* text-shadow: 0 0 10px rgb(150, 150, 150); */
 }
 .text-light:hover {
   color: rgb(223, 28, 174)!important;

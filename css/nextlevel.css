@@ -76,8 +76,8 @@ body {
 /* hover */
 
 .text-danger:hover {
-  color: rgb(235, 112, 112)!important;
-  text-shadow: 0 0 10px rgb(150, 150, 150);
+  color: rgb(226, 223, 223)!important;
+  text-shadow: 0 0 20px rgb(252, 250, 250);
 }
 .text-light:hover {
   color: rgb(223, 28, 174)!important;

@@ -1,0 +1,143 @@
+
+/* Nextlevel */
+
+/* **************************** */
+    /* Allgemeines Styling */
+/* **************************** */
+
+* {
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+  font-family: Helvetica, Arial, Droid-sans, sans-serif;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+}
+
+body {
+  background: rgb(24, 119, 122) url('../images/octopus.png') no-repeat
+  top center fixed;
+  background-size: cover;
+  text-align: center;
+}
+
+/* *************************** */
+    /* Navigations Leiste */
+/* *************************** */
+
+.navbar-brand {
+  color: rgb(223, 100, 28)!important;
+  background-color: transparent!important;
+  font-size: 20px;
+}
+.navbar-brand:hover {
+  color: rgb(223, 28, 174)!important; 
+}
+.nav-link {
+  color: rgb(223, 28, 174)!important;
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  color: rgb(223, 100, 28)!important; 
+}
+
+/* Hover Aktive-Farbe */
+.navbar-nav button:hover,
+.navbar-nav button:active,
+.navbar-nav button:focus,
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: rgb(223, 100, 28)!important; 
+  cursor: pointer;
+}
+
+.dropdown-item {
+  color: rgb(189, 22, 147)!important;
+  text-align: center;
+}
+
+.dropdown-menu {
+  background: rgb(53, 53, 53)!important;
+  text-align: center;
+  height: 165px;
+}
+
+
+/* ***************** */
+  /* Inhaltsbereich */
+/* ***************** */
+
+/* hover */
+
+.text-danger:hover {
+  /* color: rgb(235, 136, 136)!important; */
+  text-shadow: 0 0 10px rgb(221, 219, 219);
+}
+.text-light:hover {
+  color: rgb(223, 28, 174)!important;
+}
+
+/* main */
+
+a:link, a:visited,  a:hover, a:active
+{
+    text-decoration: none;   
+}
+
+.text-red {
+  color:rgb(187, 56, 74)
+}
+
+.header {
+  font-size: 100%;
+  text-align: center;
+  color: #859ce2;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin: 0px;
+}
+
+/* Animations Länge */
+.animate__animated.animate__zoomIn {
+  --animate-duration: 3s; 
+}
+
+.jdb-header-bg {
+  background: url("#") center top fixed no-repeat;
+  background-size: cover;
+  height: 100%;
+  padding-top: 70px;
+  padding-bottom: 150px;
+}
+
+#header .rounded-circle {
+  border: 8px solid rgb(37, 35, 35);
+}
+
+/* ***************** */
+    /* Footer */
+/* ***************** */
+
+.footer {
+  font-size: 100%;
+  text-align: center;
+  color: #f5a30c!important;
+
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a > span {
+  font-size: 1.0rem;
+}
+
+    
+

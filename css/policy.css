@@ -1,0 +1,48 @@
+
+/* Policy */
+    
+/* *************************** */
+    /* Allgemines Styling */
+/* *************************** */
+
+body {    
+background-position: 50% 50%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+background-color: rgb(253, 242, 238);
+text-align: center;
+}
+
+/*Standart-Styling für den Wrapper und den Body auf großen Geräten*/
+@media screen and (min-width: 1024px) {
+  body {
+      margin: 0 150px 150px 150px;
+  }
+}
+
+    
+/* ***************** */
+  /* Inhaltsbereich */
+/* ***************** */
+
+#header {
+  font-size: 100%;
+  
+  text-align: center;
+  color: rgb(15, 15, 15);
+  padding: 5px;
+  margin: 30px ;
+}
+
+a:link, a:visited,  a:hover, a:active
+{
+    color: #0026ff;
+    text-decoration: none;
+}

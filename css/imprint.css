@@ -1,0 +1,202 @@
+
+/* Imprint */
+    
+/* **************************** */
+    /* Allgemeines Styling */
+/* **************************** */
+
+* {
+  margin: 0;
+  padding: 0px; 
+  bottom: 0;
+  font-family: Helvetica, Arial, Droid-sans, sans-serif;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+}
+
+body {
+  background: rgb(142, 219, 219) url('../images/baloon.png') no-repeat
+  top center fixed;
+  background-size: cover;
+  text-align: center;
+}
+
+/* **************************** */
+    /* Navigations Leiste */
+/* **************************** */
+
+.navbar-brand {
+  color: rgb(60, 0, 172)!important;
+  background-color: transparent !important;
+  font-size: 20px;
+}
+.navbar-brand:hover {
+  color: rgb(223, 28, 174)!important; 
+}
+.nav-link {
+  color: rgb(223, 28, 174)!important;
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  color: rgb(60, 0, 172)!important; 
+}
+
+/* Hover Aktive-Farbe */
+.navbar-nav button:hover,
+.navbar-nav button:active,
+.navbar-nav button:focus,
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: rgb(60, 0, 172)!important; 
+  cursor: pointer;
+}
+
+.dropdown-item {
+  color: rgb(189, 22, 147)!important;
+  text-align: center;
+}
+
+.dropdown-menu {
+  background: rgb(53, 53, 53)!important;
+  text-align: center;
+  height: 165px;
+}
+   
+/* ***************** */
+  /* Inhaltsbereich */
+/* ***************** */
+
+.text-light:hover {
+  color: rgb(223, 28, 174)!important;
+}
+
+ .header {
+  padding-bottom: 100px;
+ }
+
+ .headline {
+  color: rgb(15, 15, 15);
+ }
+ 
+ /* Animations Länge */
+.animate__animated.animate__bounce {
+  --animate-duration: 4s;
+}
+
+.imprint {
+  font-size: 100%;
+  text-align: center;
+  color: rgb(15, 15, 15);
+  margin-top: 30px;
+  margin-bottom: 0px ;
+  line-height: 24px;
+  /* margin-right: 250px; */
+}
+
+.formular {
+  margin-top: 60px;
+  margin-bottom: 0px;
+  text-align: center;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(0 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x));
+  margin-bottom: 0;
+}
+
+a:link, a:visited,  a:hover, a:active
+{
+  color: #0026ff;
+  text-decoration: none;
+}
+
+/* ***************** */
+  /* Kontaktformular */
+/* ***************** */
+
+.contact
+
+body {
+    font-family: 'Raleway';
+}
+
+textarea
+{
+    font-family: 'Raleway';
+}
+
+form {
+    border: 1px solid black;
+    width: 300px;
+    height: 220px; /* höhe der Formular Box */
+    background-color: rgb(205, 241, 241);
+    margin: 0 auto;
+    padding: 0 1em;
+    border-radius: 0.8em;
+}
+
+form label {
+    display: block;
+    font-size: 0.8em;
+    color: rgb(15, 15, 15);
+    padding-left: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px; 
+}
+
+input,
+textarea
+{
+    width: 80%;
+    font-size: 1.1em; 
+    padding: 4px;
+    font-family: inherit;
+    font-weight: lighter;
+    border:1px solid rgb(83, 83, 85);
+    outline: none;
+    border-radius: 0.3em;
+}    
+
+input:focus,
+textarea:focus { 
+    border:1px solid orange;
+}
+
+input[type=submit] {
+    background-color: rgb(33, 32, 31);
+    cursor: pointer;
+    width: 6.5em;
+    padding: .3em 0;
+    border-radius: 1em;
+    color: rgb(240, 255, 242);
+}
+
+input[type=submit]:hover {
+    background-color: rgb(231, 125, 4);
+    box-shadow: 2px 2px 2px grey;
+}
+
+/* ***************** */
+  /* Footer */
+/* ***************** */
+
+.footer {
+  text-align: center;         
+  background-color: transparent;
+  padding-top: 20px;
+  position: relative;
+}

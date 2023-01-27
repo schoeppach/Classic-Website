@@ -41,6 +41,10 @@ text-align: center;
   margin: 30px ;
 }
 
+.mail:hover {
+  text-decoration: underline; /* mail hover */
+}
+
 a:link, a:visited,  a:hover, a:active
 {
     color: #0026ff;

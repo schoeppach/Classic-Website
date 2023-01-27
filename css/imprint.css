@@ -81,6 +81,10 @@ body {
 
 /* main */
 
+.mail:hover {
+  text-decoration: underline; /* mail hover */
+}
+
 .text-light:hover {
   color: rgb(223, 28, 174)!important; 
 }

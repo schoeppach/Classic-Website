@@ -20,10 +20,11 @@
 }
 
 body {
-  background: rgb(24, 119, 122) url('../images/octopus.png') no-repeat
+  background: rgb(30, 112, 150) url('../images/octoblue.png') no-repeat
   top center fixed;
   background-size: cover;
   text-align: center;
+  /* rgb(24, 119, 122) */
 }
 
 /* *************************** */

@@ -50,6 +50,15 @@ body {
 #cookiePopup a {
   color: #f00ca4;
 }
+
+/* .more:hover {
+  color: rgb(250, 136, 42)!important;
+} */
+
+/* .moretwo:hover {
+  color: rgb(0, 238, 255)!important;
+} */
+
 a:link, a:visited,  a:hover, a:active
 {   
     text-decoration: none;

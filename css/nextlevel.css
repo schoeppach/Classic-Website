@@ -20,8 +20,8 @@
 }
 
 body {
-  /* rgb(26, 99, 133) */
-  background: rgb(20, 97, 97) url('../images/octopus.png') no-repeat
+  /* rgb(26, 99, 133) rgb(20, 97, 97) */
+  background: rgb(58, 34, 45) url('../images/mountain.jpg') no-repeat
   top center fixed;
   background-size: cover;
   text-align: center;
@@ -38,10 +38,10 @@ body {
   font-size: 20px;
 }
 .navbar-brand:hover {
-  color: rgb(248, 71, 239)!important; 
+  color: rgb(134, 171, 226)!important;  
 }
 .nav-link {
-  color: rgb(248, 71, 239)!important; 
+  color: rgb(134, 171, 226)!important; 
   font-size: 20px;
 }
 
@@ -93,7 +93,7 @@ a:link, a:visited,  a:hover, a:active
 }
 
 .text-red {
-  color:rgb(187, 56, 74)
+  color:rgb(220, 53, 69);
 }
 
 .header {

@@ -51,8 +51,10 @@ body {
   margin: auto;
   border-radius: 5px;
 }
-#cookiePopup a {
-  color: #f00ca4;
+#cookiePopup a { 
+  color: #f57702;
+  /* color: #f00ca4; */
+ 
 }
 
 /* .more:hover {

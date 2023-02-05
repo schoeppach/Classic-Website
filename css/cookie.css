@@ -39,7 +39,7 @@ body {
   margin: 2em 0;
 }
 #cookiePopup button {
-  background-color:  #f55b02;
+  background-color:  #f58c02;
   border: none;
   color: rgb(255, 255, 255);
   font-size: 1.2em;
@@ -52,7 +52,7 @@ body {
   border-radius: 5px;
 }
 #cookiePopup a { 
-  color: #f53302;
+  color: #f58c02;
   /* color: #f00ca4; */
  
 }

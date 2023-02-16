@@ -20,10 +20,14 @@
 }
 
 body {
-  background: rgb(21, 22, 26) url('../images/koi.png') no-repeat
+  background: url('../images/koi.png') no-repeat
   top center fixed;
   background-size: cover;
   text-align: center;
+}
+
+body {
+  background-color: rgb(21, 22, 26)!important;
 }
   
 /* **************************** */

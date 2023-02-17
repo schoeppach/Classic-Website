@@ -106,10 +106,6 @@ body {
   text-shadow: 0 0 10px rgb(240, 235, 235);
 }
 
-.text-light:hover {
-  color: rgb(223, 28, 174)!important;
-}
-
 /* body */
 
 .header {
@@ -165,6 +161,10 @@ a:link, a:visited,  a:hover, a:active
   text-align: center;
   padding: 5px;
   margin-bottom: 40px;
+}
+
+.text-light:hover {
+  color: rgb(223, 28, 174)!important;
 }
 
 footer a {

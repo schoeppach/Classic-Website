@@ -93,9 +93,6 @@ body {
   color: rgb(70, 227, 255)!important; 
   /* text-shadow: 0 0 10px rgb(150, 150, 150); */
 }
-.text-light:hover {
-  color: rgb(223, 28, 174)!important;
-}
 
 /* main */
 .main {
@@ -192,6 +189,10 @@ body {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
+}
+
+.text-light:hover {
+  color: rgb(223, 28, 174)!important;
 }
 
 footer a {

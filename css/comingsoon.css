@@ -193,6 +193,10 @@ a:hover {
   font-weight: 400;
 }
 
+.text-light:hover {
+  color: rgb(223, 28, 174)!important;
+}
+
 footer a {
   text-decoration: none;
 }

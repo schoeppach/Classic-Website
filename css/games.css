@@ -79,9 +79,6 @@ body {
   color: rgb(255, 81, 0)!important;
   text-shadow: 0 0 10px rgb(150, 150, 150);
 }
-.text-light:hover {
-  color: rgb(223, 28, 174)!important;
-}
 
 /* main */
 
@@ -129,7 +126,10 @@ a:link, a:visited,  a:hover, a:active
   font-size: 100%;
   text-align: center;
   color: #f5a30c!important;
+}
 
+.text-light:hover {
+  color: rgb(223, 28, 174)!important;
 }
 
 footer a {

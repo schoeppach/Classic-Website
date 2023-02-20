@@ -13,7 +13,7 @@
       <!-- lokales CSS -->
       <link rel="stylesheet" href="css/evaluation.css">    
       <!-- Favicon -->
-      <link rel="icon" type="image/png" href="favicon/favicon_orange.png">     
+      <link rel="icon" type="image/png" href="favicon/favicon_rosa.png">     
 
 </head>
 

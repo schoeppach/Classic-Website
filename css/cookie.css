@@ -52,17 +52,17 @@ body {
   border-radius: 5px;
 }
 #cookiePopup a { 
-  color: #f56f02;
+  color: #f51e02;
   /* color: #f00ca4; */
  
 }
 
 /* .more:hover {
-  color: rgb(248, 142, 80)!important;
-} */
+  color: #e77f71!important;
+}
 
-/* .moretwo:hover {
-  color: rgb(0, 238, 255)!important;
+.moretwo:hover {
+  
 } */
 
 a:link, a:visited,  a:hover, a:active

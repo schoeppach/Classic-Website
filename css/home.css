@@ -111,8 +111,8 @@ body {
 .headline2 {
   font-size: 12px !important;
   text-align: center;
-  color: rgb(224, 219, 213)!important;
-  text-shadow: 0 0 30px rgb(240, 235, 235);
+  color: rgba(224, 219, 213, 0.322)!important;
+  /* text-shadow: 0 0 30px rgb(240, 235, 235); */
 }
 
 .lead {

@@ -52,15 +52,15 @@ body {
   font-size: 20px;
 }
 .navbar-brand:hover {
-  color: rgb(255, 113, 19)!important; 
+  color: rgb(209, 209, 209)!important; 
 }
 .nav-link {
-  color: rgb(47, 201, 248)!important; 
+  color: rgb(209, 209, 209)!important; 
   font-size: 20px;
 }
 
 .nav-link:hover {
-  color: rgb(47, 201, 248)!important; 
+  color: rgb(255, 113, 19)!important; 
 }
 
 /* Hover Aktive-Farbe */

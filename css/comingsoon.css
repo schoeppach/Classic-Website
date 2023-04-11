@@ -30,20 +30,20 @@ body {
 /* **************************** */
 
 .navbar-brand {
-  color: rgb(157, 104, 255)!important;  
+  color: rgb(138, 74, 255)!important; 
   background-color: transparent !important;
   font-size: 20px;
 }
 .navbar-brand:hover {
-  color: rgb(255, 77, 77)!important;   
+  color: rgb(178, 188, 255)!important;  
 }
 .nav-link {  
-  color: rgb(255, 77, 77)!important;
+  color: rgb(178, 188, 255)!important;
   font-size: 20px;
 }
 
 .nav-link:hover {
-  color: rgb(157, 104, 255)!important;  
+  color: rgb(138, 74, 255)!important;  
 }
 
 /* Hover Aktive-Farbe */
@@ -52,7 +52,7 @@ body {
 .navbar-nav button:focus,
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active {
-  color: rgb(157, 104, 255)!important; 
+  color: rgb(138, 74, 255)!important; 
   cursor: pointer;
 }
 

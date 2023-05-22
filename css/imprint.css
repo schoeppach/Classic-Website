@@ -26,14 +26,15 @@ body {
   text-align: center;
 }
 
-/* @media screen and (max-width: 520px) {
+  /* @media screen and (max-width: 520px) {
   body {
   background: rgb(106, 179, 179) url('../images/baloon.png') no-repeat
   top center fixed;
+  background-attachment: fixed;
   background-size: cover;
-  text-align: center;
+  text-align: center
   }
-}
+} */
 
 /* **************************** */
     /* Navigations Leiste */

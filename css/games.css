@@ -20,10 +20,14 @@
 }
 
 body {
-  background: rgb(20, 20, 20) url('../images/games.png') no-repeat
+  background: url('../images/games.png') no-repeat
   top center fixed;
   background-size: cover;
   text-align: center;
+}
+
+body {
+  background-color: rgb(20, 20, 20)!important;
 }
 
 /* *************************** */

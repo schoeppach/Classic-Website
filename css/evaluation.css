@@ -19,10 +19,14 @@
 }
 
 body {
-  background: rgb(236, 230, 219) url('../images/whitelake.png') no-repeat
+  background: url('../images/whitelake.png') no-repeat
   top center fixed;
   background-size: cover;
   text-align: center;
+}
+
+body {
+  background-color: rgb(236, 230, 219)!important;
 }
 
 /* **************************** */

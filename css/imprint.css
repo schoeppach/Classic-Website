@@ -20,10 +20,14 @@
 }
 
 body {
-  background: rgb(106, 179, 179) url('../images/baloon.png') no-repeat
+  background: url('../images/baloon.png') no-repeat
   top center fixed;
   background-size: cover;
   text-align: center;
+}
+
+body {
+  background-color: rgb(106, 179, 179)!important;
 }
 
   /* @media screen and (max-width: 520px) {

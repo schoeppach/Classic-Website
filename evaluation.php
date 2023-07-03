@@ -26,7 +26,7 @@
           <!-- Logo -->
           <div class="div">
             <a><img src="images/robot_dark.png" alt="schöppach" width="50" height="42"></a>
-            <a class="navbar-brand" href="index.html">Welcome</a>
+            <a class="navbar-brand" href="index.html">Home</a>
           </div>
           <!-- Menu Button -->
 
@@ -34,10 +34,6 @@
 
           <div class="collapse.show navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="home.html">Home</a>
-              </li>
 
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="comingsoon.html">Newsletter</a>

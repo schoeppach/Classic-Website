@@ -21,7 +21,7 @@
 
 body {
   /* rgb(26, 99, 133) rgb(20, 97, 97) */
-  background: url('../images/octopus.png') no-repeat
+  background: url('../images/octoblue.png') no-repeat
   top center fixed;
   background-size: cover;
   text-align: center;
@@ -29,7 +29,7 @@ body {
 }
 
 body {
-  background-color: rgb(22, 102, 112)!important;
+  background-color: rgb(3, 129, 187)!important;
 }
 
 /* *************************** */
@@ -42,10 +42,10 @@ body {
   font-size: 20px;
 }
 .navbar-brand:hover {
-  color: rgb(214, 248, 253)!important;  
+  color: rgb(180, 210, 255)!important;  
 }
 .nav-link {
-  color: rgb(214, 248, 253)!important;  
+  color: rgb(180, 210, 255)!important;
   font-size: 20px;
 }
 

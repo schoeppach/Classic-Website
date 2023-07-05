@@ -30,6 +30,19 @@ body {
   background-color: rgb(106, 179, 179)!important;
 }
 
+/* IPHONE ANPASSUNG BACKGROUND */
+html::before {
+  content: ' ';
+  display: block;
+  background-image: url('../images/net.png');
+  background-position: center;
+  background-size: cover;
+  height: 100vh; width: 100vw;
+  top: 0; bottom: 0; left: 0; right: 0;
+  position: fixed;
+  z-index: -10;
+}
+
   /* @media screen and (max-width: 520px) {
   body {
   background: rgb(106, 179, 179) url('../images/baloon.png') no-repeat

@@ -78,18 +78,6 @@ html::before {
   cursor: pointer;
 }
 
-.dropdown-item {
-  color: rgb(189, 22, 147)!important;
-  text-align: center;
-}
-
-.dropdown-menu {
-  background: rgb(53, 53, 53)!important;
-  text-align: center;
-  height: 165px;
-}
-
-
 /* ***************** */
   /* Inhaltsbereich */
 /* ***************** */
@@ -150,7 +138,7 @@ a:link, a:visited,  a:hover, a:active
 }
 
 .text-light:hover {
-  color: rgb(223, 28, 174)!important;
+  color: rgb(255, 81, 0)!important;
 }
 
 footer a {

@@ -1,8 +1,8 @@
 
-/* Cookie */
+/* COOKIE */
 
 /* **************************** */
-    /* Allgemeines Styling */
+    /* ALLGEMEINES STYLING */
 /* **************************** */
 
 * {
@@ -10,14 +10,19 @@
   margin: 0; 
 }
 body {
-  background-color: #f5f8ff;
+  background-color: rgb(244, 244, 244);
 }
+
+/* ************************* */
+    /* COOKIE STYLING */
+/* ************************* */
+
 #cookiePopup {
-  background-color: #0a0b0fea;
+  background-color: rgb(15, 15, 15);      /* Cookie Box Background */
   position: fixed;
   font-size: 12px;
   width: 100%;
-  box-shadow: 0 0 2em #fff;
+  box-shadow: 0 0 2em rgb(244, 244, 244);      /* Cookie Box Schatten */
   font-family: 'Raleway';
   text-align:center;
   line-height: 1.8em;
@@ -34,14 +39,17 @@ body {
   margin: auto;
   padding-top: 10px;
 }
+.text-cookie {
+  color: rgb(244, 244, 244);;
+}
 #cookiePopup p {
   text-align: center;
   margin: 2em 0;
 }
 #cookiePopup button {
-  background-color:  #f56f02;
+  background-color:  #f56f02;     /* Okay Button */
   border: none;
-  color: rgb(255, 255, 255);
+  color: rgb(244, 244, 244);      /* Schriftfarbe Okay Button */
   font-size: 1.3em;
   padding: 1em;
   width: 5em;
@@ -52,18 +60,8 @@ body {
   border-radius: 5px;
 }
 #cookiePopup a { 
-  color: #ff3c23;
-  /* color: #f00ca4; */
- 
+  color: #f56f02;     /* mehr erfahren */
 }
-
-/* .more:hover {
-  color: #e77f71!important;
-}
-
-.moretwo:hover {
-  
-} */
 
 a:link, a:visited,  a:hover, a:active
 {   

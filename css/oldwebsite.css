@@ -43,22 +43,6 @@ html::before {
   z-index: -10;
 }
 
-/*Animations Länge*/
-.animate__animated.animate__zoomInLeft {
-  --animate-duration: 3s;
-}
-
-.animate__animated.animate__zoomInRight {
-  --animate-duration: 2s;
-}
-
-/*Standart-Styling für den Wrapper und den Body auf großen Geräten
-@media screen and (min-width: 1024px) {
-  body {
-      background-image: rgb(24, 119, 122) url('../images/home.gif');
-  }
-}*/
-
 /* *************************** */
     /* Navigations Leiste */
 /* *************************** */
@@ -102,11 +86,19 @@ html::before {
 }
 
 /* ***************** */
-  /* Inhaltsbereich */
+     /* WEBSITE */
 /* ***************** */
 
-/* hover */
+/*Animations Länge*/
+.animate__animated.animate__zoomInLeft {
+  --animate-duration: 2s;
+}
 
+.animate__animated.animate__zoomInRight {
+  --animate-duration: 2s;
+}
+
+/* Hover */
 .hover1:hover,
 .hover2:hover,
 .hover3:hover,
@@ -120,53 +112,74 @@ html::before {
 .hover10:hover,
 .hover11:hover
 {
-  text-shadow: 0 0 10px rgb(240, 235, 235);
+  text-shadow: 0 0 10px rgb(244, 244, 244);     /* Link Hover */
+}
+.card-body {
+  color: rgb(110, 236, 26)!important;
+}
+.card-body-2 {
+  color: rgb(226, 103, 21)!important;
+}
+.card-body-3 {
+  color: rgb(30, 220, 163)!important;
+}
+.card-body-4 {
+  color: rgb(248, 66, 66)!important;
+}
+.card-body-5 {
+  color: rgb(42, 193, 235)!important;
+}
+.card-body-6 {
+  color: rgb(216, 14, 155)!important;
+}
+.card-body-7 {
+  color: rgb(244, 244, 244)!important;
+}
+.card-body-8 {
+  color: rgb(202, 10, 10)!important;
+}
+.card-body-9 {
+  color: rgb(200, 106, 234)!important;
+}
+.card-body-10 {
+  color: rgb(229, 154, 34)!important;
+}
+.card-body-11 {
+  color: rgb(255, 255, 0)!important;
 }
 
-/* body */
+/* Body */
 
-.header {
-  padding: 0;
+.header-websites {
+  padding-top: 0;
+  padding-bottom: 50px;     
 }
 
-.headline {
-  font-size: 100%;
-  justify-content: center;
+.headline-websites {
+  font-size: 35px!important;
   text-align: center;
-  color: #e09927;
-  padding: 20px;
-  margin-top: 35px;
+  color: rgb(255, 111, 27);     /* Websites */
+  padding: 6px;
+  margin-top: 100px!important;
+  padding-top: 40px;        /* Abstand oben */
 }
 
-.headline2 {
-  font-size: 40px; 
+.headline-websites-2 {
+  font-size: 20px;
   text-align: center;
-  color: #f76809;
-  padding: 20px;
-}
-
-.headline3 {
-  font-size: 40px;
-  text-align: center;
-  color: #fff;
+  color: rgb(244, 244, 244);      /* Intrastingasfuck */
   padding: 0px;
 }
 
-.link {
-  text-align: center;
-  padding: 80px; 
+.link-websites {
+  text-align: center;     /* Links */
+  padding: 80px;
+  padding-bottom: 160px!important;
 }
 
 a:link, a:visited,  a:hover, a:active
 {
     text-decoration: none;
-}
-
-.thumb {
-  font-size: 100%;          
-  text-align: center;
-  color: #949594;
-  padding: 0px;
 }
 
 /* ********************** */

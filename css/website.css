@@ -78,17 +78,6 @@ html::before {
   cursor: pointer;
 }
 
-.dropdown-item {
-  color: rgb(189, 22, 147)!important;
-  text-align: center;
-}
-
-.dropdown-menu {
-  background: rgb(53, 53, 53)!important;
-  text-align: center;
-  height: 165px;
-}
-
 /* ***************** */
      /* WEBSITE */
 /* ***************** */
@@ -165,7 +154,7 @@ html::before {
   color: rgb(255, 111, 27);     /* Websites */
   padding: 6px;
   margin-top: 100px!important;
-  padding-top: 40px;        /* Abstand oben */
+  padding-top: 5px;        /* Abstand oben */
 }
 
 .headline-websites-2 {

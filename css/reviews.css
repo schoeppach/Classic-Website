@@ -19,7 +19,7 @@
 }
 
 body {
-  background: url('../images/valley.jpg') no-repeat
+  background: url('../images/wale.jpg') no-repeat
   top center fixed;
   background-size: cover;
   text-align: center;
@@ -33,7 +33,7 @@ body {
 html::before {
   content: ' ';
   display: block;
-  background-image: url('../images/valley.jpg');
+  background-image: url('../images/wale.jpg');
   background-position: center;
   background-size: cover;
   height: 100vh; width: 100vw;
@@ -51,20 +51,20 @@ html::before {
 }
 
 .navbar-brand {
-  color: rgb(213, 215, 226)!important;  
+  color: rgb(244, 244, 244)!important;  
   background-color: transparent !important;
   font-size: 20px;
 }
 .navbar-brand:hover {
-  color: rgb(192, 83, 255)!important; 
+  color: rgb(27, 35, 65)!important; 
 }
 .nav-link {  
-  color: rgb(192, 83, 255)!important;
+  color: rgb(27, 35, 65)!important;
   font-size: 20px;
 }
 
 .nav-link:hover {
-  color: rgb(213, 215, 226)!important;  
+  color: rgb(244, 244, 244)!important;  
 }
 
 /* Hover Aktive-Farbe */
@@ -73,7 +73,7 @@ html::before {
 .navbar-nav button:focus,
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active {
-  color: rgb(213, 215, 226)!important;
+  color: rgb(244, 244, 244)!important;
   cursor: pointer;
 }
 
@@ -90,8 +90,8 @@ html::before {
 .headline-end {
   font-size: 30px !important;
   text-align: center;
-  color: rgb(255, 111, 27);     /* Kommentar Einleitung rgb(206, 2, 80)*/
-  /* text-shadow: 0 0 30px rgb(244, 244, 244); */
+  color: rgb(246, 100, 16);     /* Kommentar Einleitung rgb(206, 2, 80)*/
+  text-shadow: 0 0 1px rgb(107, 107, 107);
   padding-top: 150px;
   padding-bottom: 20px;   
 }
@@ -105,7 +105,8 @@ html::before {
 }
 
 .lead-top-end{
-  color: rgb(0, 192, 250)!important;      /* Kommentator */
+  color: rgb(48, 69, 143)!important;      /* Kommentator */
+  text-shadow: 0 0 10px rgb(244, 244, 244);
   font-size: 25px;
 }
 

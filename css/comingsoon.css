@@ -46,6 +46,10 @@ html::before {
     /* Navigations Leiste */
 /* **************************** */
 
+.navbar {
+  padding-top: 20px!important;
+}
+
 .navbar-brand {
   color: rgb(132, 67, 253)!important;  
   background-color: transparent !important;

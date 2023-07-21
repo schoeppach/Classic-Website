@@ -7,5 +7,5 @@
   Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
   Header set Referrer-Policy "no-referrer"
   Header set Permissions-Policy "accelerometer=()‚ autoplay=(self), camera=(), encrypted-media=(), fullscreen=(), geolocation=(self), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(self), usb=(), interest-cohort=()"
-  Header set Content-Security-Policy "default-src 'none'; script-src 'self'; style-src 'self' https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css; base-uri 'self'; form-action 'self'; frame-ancestors; img-src 'self'; font-src 'self'; object-src 'none'; frame-src 'self'; worker-src 'self'; connect-src 'self'; report-uri /security-report.php"
+  Header set Content-Security-Policy "default-src 'none'; script-src 'self'; style-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors; img-src 'self'; font-src 'self'; object-src 'none'; frame-src 'self'; worker-src 'self'; connect-src 'self'; report-uri /security-report.php"
 </IfModule>

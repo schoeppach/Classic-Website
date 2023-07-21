@@ -19,7 +19,7 @@
 }
 
 body {
-  background: url('../images/sunrise.jpg') no-repeat
+  background: url('../images/blue_fabric.jpg') no-repeat
   top center fixed;
   background-size: cover;
   text-align: center;
@@ -33,7 +33,7 @@ body {
 html::before {
   content: ' ';
   display: block;
-  background-image: url('../images/sunrise.jpg');
+  background-image: url('../images/blue_fabric.jpg');
   background-position: center;
   background-size: cover;
   height: 100vh; width: 100vw;
@@ -56,10 +56,10 @@ html::before {
   font-size: 20px;
 }
 .navbar-brand:hover {
-  color: rgb(98, 170, 252)!important;
+  color: rgb(255, 80, 80)!important;
 }
 .nav-link {  
-  color: rgb(98, 170, 252)!important;
+  color: rgb(255, 80, 80)!important;
   font-size: 20px;
 }
 
@@ -90,8 +90,8 @@ html::before {
 .headline-end {
   font-size: 30px !important;
   text-align: center;
-  color: rgb(255, 80, 80);     /* Kommentar Einleitung rgb(206, 2, 80)*/
-  text-shadow: 0 0 1px rgb(107, 107, 107);
+  color: rgb(126, 193, 255);     /* Kommentar Einleitung rgb(206, 2, 80)*/
+  text-shadow: 0 0 1px rgb(0, 0, 0);
   padding-top: 150px;
   padding-bottom: 20px;   
 }
@@ -105,7 +105,7 @@ html::before {
 }
 
 .lead-top-end{
-  color: rgb(244, 244, 244)!important;      /* Kommentator */
+  color: rgb(255, 80, 80)!important;      /* Kommentator */
   /* text-shadow: 0 0 10px rgb(244, 244, 244); */
   font-size: 25px;
 }

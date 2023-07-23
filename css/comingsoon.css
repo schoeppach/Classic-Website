@@ -19,7 +19,7 @@
 }
 
 body {
-  background: url('../images/astronaut.png') no-repeat
+  background: url('../images/background_astronaut.png') no-repeat
   top center fixed;
   background-size: cover;
   text-align: center;
@@ -33,7 +33,7 @@ body {
 html::before {
   content: ' ';
   display: block;
-  background-image: url('../images/astronaut.png');
+  background-image: url('../images/background_astronaut.png');
   background-position: center;
   background-size: cover;
   height: 100vh; width: 100vw;

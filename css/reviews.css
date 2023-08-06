@@ -19,7 +19,7 @@
 }
 
 body {
-  background: url('../images/background_net.png') no-repeat
+  background: url('../images/background_alternativ3.png') no-repeat
   top center fixed;
   background-size: cover;
   text-align: center;
@@ -33,7 +33,7 @@ body {
 html::before {
   content: ' ';
   display: block;
-  background-image: url('../images/background_net.png');
+  background-image: url('../images/background_alternativ3.png');
   background-position: center;
   background-size: cover;
   height: 100vh; width: 100vw;
@@ -51,20 +51,20 @@ html::before {
 }
 
 .navbar-brand {
-  color: rgb(244, 244, 244)!important;  
+  color: rgb(204, 250, 37)!important;  
   background-color: transparent !important;
   font-size: 20px;
 }
 .navbar-brand:hover {
-  color: rgb(253, 4, 99)!important;
+  color: rgb(0, 175, 73)!important;
 }
 .nav-link {  
-  color: rgb(253, 4, 99)!important;
+  color: rgb(0, 175, 73)!important;
   font-size: 20px;
 }
 
 .nav-link:hover {
-  color: rgb(244, 244, 244)!important;  
+  color: rgb(204, 250, 37)!important;  
 }
 
 /* Hover Aktive-Farbe */
@@ -73,7 +73,7 @@ html::before {
 .navbar-nav button:focus,
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active {
-  color: rgb(244, 244, 244)!important;
+  color: rgb(204, 250, 37)!important; 
   cursor: pointer;
 }
 
@@ -83,7 +83,7 @@ html::before {
 
 .reviews {
   padding-top: 30px;
-  padding-bottom: 150px;
+  padding-bottom: 350px;
 }
 
 /* Headline */

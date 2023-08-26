@@ -19,14 +19,14 @@
 }
 
 body {
-  background: url('../images/background_alternativ3.png') no-repeat
+  background: url('../images/background_alternativ3-min.png') no-repeat
   top center fixed;
   background-size: cover;
   text-align: center;
 }
 
 body {
-  background-color: rgb(112, 201, 225)!important;
+  background-color: rgb(29, 32, 47)!important;
 }
 
 /* IPHONE ANPASSUNG BACKGROUND */

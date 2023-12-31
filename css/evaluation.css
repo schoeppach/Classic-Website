@@ -1,8 +1,8 @@
 
-/* Evaluation */
+/* EVALUATION */
 
 /* **************************** */
-    /* Allgemeines Styling */
+    /* ALLGEMEINES STYLING */
 /* **************************** */
 
 * {
@@ -42,9 +42,9 @@ html::before {
   z-index: -10;
 }
 
-/* **************************** */
-    /* Navigations Leiste */
-/* **************************** */
+/* ********************** */
+     /* NAVIGATION */
+/* ********************** */
 
 .navbar {
   padding-top: 20px!important;
@@ -66,41 +66,56 @@ html::before {
 .nav-link:hover {
   color: rgb(60, 0, 172)!important; 
 }
+/* ********************* */
+   /* INHALT FORMULAR */
+/* ********************* */
 
-/* ***************** */
-  /* Inhaltsbereich */
-/* ***************** */
-
-/* Animations Länge */
-.animate__animated.animate__heartBeat {
-  --animate-duration: 3s;
+.formular {
+  padding-bottom: 400px;
 }
 
-a,
-a:focus,
-a:hover {
-  color: #fff; 
-}
-
-.navbar {
-  padding-top: 8px;
-  padding-bottom: 80px;
-}
-
-.container { 
+.text-php { 
   text-align: center;
+  padding-top: 130px;
   font-size: 20px !important;
-  color: black; /* Header Farbe */
-  text-shadow: 0 0 40px rgb(94, 186, 248);
+  color: rgb(10, 10, 10);     /* Header Farbe */
 }
 
 .text { 
   text-align: center;
   font-size: 20px !important;
-  padding-top: 50px;
-  color: rgb(247, 70, 0); /* Header Farbe */
+  padding-top: 100px;
+  color: rgb(247, 70, 0);   /* Ausgabe Farbe */
   text-shadow: 0 0 40px rgb(255, 255, 255);
 }
 
+/* ***************** */
+     /* FOOTER */
+/* ***************** */
 
+.footer {
+  text-align: center;
+  color: rgb(252, 191, 100)!important;      /* created by */ 
+  
+    position: absolute;
+    width: 100%;
+    min-height: 320px;
+    bottom: 0px;
+    left: -10px;
 
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+}
+
+.text-light:hover {
+  color: rgb(255, 81, 0)!important;     /* Hover Auswahl */
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a > span {
+  font-size: 1.0rem;
+}

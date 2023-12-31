@@ -1,8 +1,9 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="de">
 <head>
       <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Evaluation</title>
 
       <!-- Bootstrap CSS -->
@@ -10,18 +11,17 @@
       <!-- lokale Fonts -->
       <link rel="stylesheet" href="css/fonts.css">
       <!-- lokales CSS -->
-      <link rel="stylesheet" href="css/evaluation.css">    
+      <link rel="stylesheet" href="css/evaluation.css">   
       <!-- Favicon -->
       <meta name="schoeppach" content="&nbsp;">
       <link rel="icon" type="image/png" href="favicon/favicon_schoeppach.png">
-      <link rel="apple-touch-icon-precomposed" sizes="180x180" href="favicon/apple-touch-icon-180x180.png">    
+      <link rel="apple-touch-icon-precomposed" sizes="180x180" href="favicon/apple-touch-icon-180x180.png">
 
 </head>
+<body class="d-flex flex-column min-vh-100">
 
-<body>
-<header>
   <!-- Navigation -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
         <div class="container">
         
           <!-- Logo -->
@@ -53,50 +53,72 @@
 
         </div>
       </nav>
-      
-</header>
-<main>
-  <div class="container pt-5">
 
-      <p>Diese Seite zeigt ihr Formular mit den<wbr> zugeh&ouml;renden Feldern und Eintr&auml;gen an,<br>
-      es wird zu Testzwecken als Formularauswertung genutzt.</p>
+    <!-- INHALT FORMULAR -->
 
-        <div class="text">
-          <ol>
+    <div class="formular">
 
-            <?php
-                  if (isset($_POST["Newsletter"]))                  
-                  echo "<font color='black'>Newsletter: </font>" . $_POST["Newsletter"];            
-            ?>
+    <div class="text-php">
 
-              <br>
-              <br>
+          <p>Diese Seite zeigt ihr Formular mit den<wbr> zugeh&ouml;renden Feldern und Eintr&auml;gen an,<br>
+          es wird zu Testzwecken als Formularauswertung genutzt,<br> die eigentliche Funktion ist noch nicht implementiert.</p>
 
-            <?php
-                  if (isset($_POST["Alias"]))
-                  echo "<font color='black'>Alias Name: </font>" . $_POST["Alias"];
-            ?>
+            <div class="text">
+              <ol>
 
-              <br>
-              <br>
+                <?php
+                      if (isset($_POST["Newsletter"]))                  
+                      echo "<font color='black'>Newsletter: </font>" . $_POST["Newsletter"];            
+                ?>
 
-            <?php
-                  if(isset($_POST["Bewertung"])){
-                    if(!empty($_POST["Bewertung"])) {
-                      foreach($_POST["Bewertung"] as $selected){
-                        echo "<font color='black'>Bewertung: </font>" . $selected;
-                      }          
-                    } 
-                  }
-            ?>
-           
-          </ol>
+                  <br>
+                  <br>
+
+                <?php
+                      if (isset($_POST["Alias"]))
+                      echo "<font color='black'>Alias Name: </font>" . $_POST["Alias"];
+                ?>
+
+                  <br>
+                  <br>
+
+                <?php
+                      if(isset($_POST["Bewertung"])){
+                        if(!empty($_POST["Bewertung"])) {
+                          foreach($_POST["Bewertung"] as $selected){
+                            echo "<font color='black'>Bewertung: </font>" . $selected;
+                          }          
+                        } 
+                      }
+                ?>
+              
+              </ol>
+            </div>
+
+    </div>
+
+    </div>
+    <!-- FOOTER -->
+     
+		<footer class="bg-black text-center text-lg-start mt-auto">
+        <div class="container py-3">
+          <div class="row text-warning justify-content-center align-item-start" >
+            
+            <div class="text-footer col-md-8 text-center mt-3">
+              <p>
+                created by &copy; schoeppach
+                <span id="jahr"><time datetime="2024" class="text-warning">2022-2024</time></span>
+                <a href="imprint.html" class="text-light"> &nbsp; Impressum &nbsp; </a> 
+                &#124; <a href="policy.html" class="text-light"> &nbsp; Datenschutz &nbsp; </a>
+              </p>
+            </div>
+            
+          </div>
         </div>
+    </footer>
 
-  </div>
+    <!-- BootstrapJavaScript -->
+    <script src="js/bootstrap.bundle.min.js"></script>
 
-</main>
-       <!-- BootstrapJavaScript -->
-       <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

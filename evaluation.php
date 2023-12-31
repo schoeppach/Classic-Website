@@ -13,7 +13,7 @@
       <link rel="stylesheet" href="css/evaluation.css">    
       <!-- Favicon -->
       <meta name="schoeppach" content="&nbsp;">
-      <link rel="icon" type="image/png" href="favicon/favicon_orange.png">
+      <link rel="icon" type="image/png" href="favicon/favicon_schoeppach.png">
       <link rel="apple-touch-icon-precomposed" sizes="180x180" href="favicon/apple-touch-icon-180x180.png">    
 
 </head>

@@ -54,14 +54,14 @@ html::before {
 .navbar-brand {
   color: rgb(252, 191, 100)!important; 
   background-color: transparent!important;
-  font-size: 20px;
+  font-size: 23px;
 }
 .navbar-brand:hover {
   color: rgb(255, 81, 0)!important;
 }
 .nav-link {
   color: rgb(255, 81, 0)!important;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .nav-link:hover {

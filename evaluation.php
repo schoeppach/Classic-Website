@@ -107,7 +107,7 @@
             <div class="text-footer col-md-8 text-center mt-3">
               <p>
                 created by &copy; schoeppach
-                <span id="jahr"><time datetime="2024" class="text-warning">2022-2024</time></span>
+                <span id="jahr"><time datetime="2024" class="text-warning">2022-2025</time></span>
                 <a href="imprint.html" class="text-light"> &nbsp; Impressum &nbsp; </a> 
                 &#124; <a href="policy.html" class="text-light"> &nbsp; Datenschutz &nbsp; </a>
               </p>

@@ -1,2 +1,2 @@
 
-website: https://github.com/schoeppach/Classic-Website/blob/master/index.html
+website: https://schoeppach.github.io/Classic-Website/index.html

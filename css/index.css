@@ -20,7 +20,7 @@
 }
 
 body {
-  background: url('../images/background_honeycomb_local.png') no-repeat
+  background: url('../images/background_darkmoon.jpg') no-repeat
   top center fixed;
   background-size: cover;
   text-align: center;
@@ -34,7 +34,7 @@ body {
 html::before {
   content: ' ';
   display: block;
-  background-image: url('../images/background_honeycomb_local.png');
+  background-image: url('../images/background_darkmoon.jpg');
   background-position: center;
   background-size: cover;
   height: 100vh; width: 100vw;

@@ -19,7 +19,7 @@
 }
 
 body {
-  background: url('../images/background_circle.png') no-repeat
+  background: url('../images/background_lake.PNG') no-repeat
   top center fixed;
   background-size: cover;
   text-align: center;
@@ -33,7 +33,7 @@ body {
 html::before {
   content: ' ';
   display: block;
-  background-image: url('../images/background_circle.png');
+  background-image: url('../images/background_lake.PNG');
   background-position: center;
   background-size: cover;
   height: 100vh; width: 100vw;
@@ -91,7 +91,7 @@ html::before {
   font-size: 30px !important;
   text-align: center;
   color: rgb(53, 154, 248);     /* Kommentar Einleitung rgb(206, 2, 80)*/
-  text-shadow: 0 0 1px rgb(0, 0, 0);
+  /*text-shadow: 0 0 1px rgb(0, 0, 0);*/
   padding-top: 150px;
   padding-bottom: 20px;   
 }
@@ -111,7 +111,7 @@ html::before {
 }
 
 .text-top-end{
-  color: rgb(244, 244, 244);      /* Kommentar */
+  color: rgb(8, 10, 82);      /* Kommentar */
 }
 
 /* ***************** */

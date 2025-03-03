@@ -56,10 +56,10 @@ html::before {
   font-size: 23px;
 }
 .navbar-brand:hover {
-  color: rgb(187, 0, 121)!important;
+  color: rgb(116, 0, 137)!important;
 }
 .nav-link {  
-  color: rgb(187, 0, 121)!important;
+  color: rgb(116, 0, 137)!important;
   font-size: 22px;
 }
 
@@ -91,7 +91,7 @@ html::before {
 .headline-end {
   font-size: 30px !important;
   text-align: center;
-  color: rgb(53, 154, 248);     /* Kommentar Einleitung rgb(206, 2, 80)*/
+  color: rgb(200, 1, 154);     /* Kommentar Einleitung rgb(206, 2, 80)*/
   /*text-shadow: 0 0 1px rgb(0, 0, 0);*/
   padding-top: 150px;
   padding-bottom: 20px;   
@@ -106,7 +106,7 @@ html::before {
 }
 
 .lead-top-end{
-  color: rgb(253, 63, 16)!important;      /* Kommentator */
+  color: rgb(125, 0, 184)!important;      /* Kommentator */
   /* text-shadow: 0 0 10px rgb(244, 244, 244); */
   font-size: 25px;
 }

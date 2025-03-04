@@ -106,7 +106,7 @@ html::before {
 }
 
 .lead-top-end{
-  color: rgb(18, 152, 254);!important;      /* Kommentator */
+  color: rgb(18, 152, 254)!important;      /* Kommentator */
   /* text-shadow: 0 0 10px rgb(244, 244, 244); */
   font-size: 25px;
 }
